@@ -28,6 +28,14 @@
 }
 
 .card {
-  display: grid;
-  place-items: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  padding: 2% 2% 4%;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1rem #eee;
+  background-color: #fff;
+  /* min-width: 50%; */
+  /* min-height: 80vh; */
 }

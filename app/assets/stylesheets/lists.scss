@@ -1,3 +1,14 @@
 // Place all the styles related to the lists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+:is(h1, h2, h3, h4, h5, h6){
+  font-size: 1.5em;
+  color: teal;
+  line-height: 1.5;
+  margin: .2em 0 0;
+}
+
+.column + .column{
+  margin-bottom: 2rem;
+}
