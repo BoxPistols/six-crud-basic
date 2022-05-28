@@ -1,2 +1,19 @@
-<h1>Lists#index</h1>
-<p>Find me in app/views/lists/index.html.erb</p>
+<div class="section">
+    <div class="card">
+        <h1>投稿一覧</h1>
+        <%= @lists.each do |list| %>
+        <div class="row">
+
+            <div class="column">
+                <b>タイトル</b>
+                <span><%= list.title %></span>
+            </div>
+
+            <div class="column">
+                <b>内容</b>
+                <span><%= list.body %></span>
+            </div>
+        </div>
+    <% end %>
+</div>
+</div>

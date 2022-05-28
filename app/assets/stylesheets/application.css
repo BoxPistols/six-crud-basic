@@ -30,4 +30,12 @@
 .card {
   display: grid;
   place-items: center;
+  padding: 2% 2% 4%;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1rem #eee;
+  background-color: #fff;
+}
+
+.column + .column {
+  margin-bottom: 2vh;
 }
