@@ -3,9 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+https://hackmd.io/@ait/HJ2kxXTdc
+
 Things you may want to cover:
 
 * Ruby version
+  - 3
 
 * System dependencies
 
