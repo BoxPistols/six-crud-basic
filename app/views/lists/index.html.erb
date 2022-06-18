@@ -1,19 +1,20 @@
 <div class="section">
-    <div class="card">
-        <h1>投稿一覧</h1>
-        <%= @lists.each do |list| %>
-        <div class="row">
+  <div class="card">
+    <h1>投稿一覧</h1>
+    <% @lists.each do |list| %>
+    <div class="row">
+      <div class="column">
+        <b>タイトル</b>
+        <!-- "/lists/#{list.id}" -->
+        <span> <%= link_to list.title, list_path(list.id) %> </span>
+      </div>
 
-            <div class="column">
-                <b>タイトル</b>
-                <span><%= list.title %></span>
-            </div>
-
-            <div class="column">
-                <b>内容</b>
-                <span><%= list.body %></span>
-            </div>
-        </div>
+      <div class="column">
+        <b>内容</b>
+        <span> <%= list.body %> </span>
+      </div>
+    </div>
     <% end %>
-</div>
+  </div>
+  s
 </div>
