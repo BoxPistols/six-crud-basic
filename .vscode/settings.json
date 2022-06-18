@@ -1,7 +1,12 @@
 {
+  "csscomb.formatOnSave": false,
+  "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
-    "activityBar.background": "#a32f42",
-    "titleBar.activeBackground": "#b82b37",
-    "titleBar.activeForeground": "#F8FAFC"
+    "activityBar.background": "#d74b63",
+    "activityBar.foreground": "#fff",
+    "titleBar.activeBackground": "#c0545d",
+    "titleBar.activeForeground": "#F8FAFC",
+    "editorLineNumber.foreground": "#7c4",
+    "editor.selectionBackground": "#311b92"
   }
 }
