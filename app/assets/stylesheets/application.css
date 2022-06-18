@@ -14,11 +14,11 @@
  *= require_self
  */
 
- /* Asagiri npm/CDN */
+/* Asagiri npm/CDN */
 @import "https://cdn.jsdelivr.net/npm/asagiri@0.1.1/css/main.min.css";
 
 :is(h1, h2, h3, h4, h5, h6) {
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   font-feature-settings: "palt" 1;
 }
 
